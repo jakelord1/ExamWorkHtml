@@ -1,0 +1,93 @@
+@media screen and (max-width:1000px) {  
+    header {
+        height: 5vh;
+        background-size: 55%;
+        background-position: 52% -10vh;
+    }   
+    nav {
+        top:5vh;
+        height: 96vh;
+        width: 100%;
+        left: -96%;
+    }
+    nav li {
+        padding: 3vh;
+
+    }
+    footer {
+        display: none;
+    }
+    #page {
+        flex-direction: column;
+    }
+    #page main {
+       margin-bottom: 5vh;
+       margin-left: 2%;
+    }
+    #info dl {
+        display: none;
+    }
+    #info #articles {
+        display: block;
+    }
+    #info img {
+        width: 50%;
+        margin: 1%;
+    }
+    #page #imgs_pg {
+        padding: 0;
+    }
+    #g_row {
+        flex-direction: column;
+    }
+    #imgs_pg dl {
+        width: 96%;
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+    #imgs_pg dt{
+        padding: 1%;
+    }
+    #imgs_pg dd img {
+        width: 95%;
+        margin: 1%;
+        margin-bottom: 0%;
+        border: 0.3vh white solid;
+    }
+    #gallery img {
+        height: auto;
+    }
+    .form {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        padding: 1.5vh;
+        border: 0.8vh white solid;
+        background-color: black;
+        color: white;
+        width: 90%;
+        font-size: large;
+        font-weight: 700;
+    }
+    textarea {
+        padding: 1.5vh;
+        border: 0.8vh white solid;
+        background-color: black;
+        color: white;
+        width: 90%;
+        font-size: large;
+        font-weight: 700;
+    }
+    #gasterdiv {
+        height: 150vh;
+    }
+}
+@media screen and (max-width:600px) {  
+    header {
+        background-size: 75%;
+        background-position: 52% -9vh;
+    }  
+}
