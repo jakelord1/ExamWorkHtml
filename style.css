@@ -161,7 +161,7 @@ footer {
     text-align: justify;
     padding-top: 0;
 }
-#g_row {
+.g_row {
     display: flex;
     width: 100%;
 }
@@ -240,6 +240,15 @@ input:active {
 #info dd ul {
     list-style-position: inside;
     list-style-type: none;
+}
+#searchbut {
+    width: 20%;
+    padding: 2%; 
+    background-image: url(https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png);
+    background-size: 70%; 
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+    border: 0.5vh white solid;
 }
 #gasterdiv {
     top:0;
