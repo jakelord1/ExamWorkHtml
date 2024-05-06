@@ -56,7 +56,7 @@
         </div>
     </nav>
     <script>
-        let a = parseInt(new URLSearchParams( window.location.search).get("id"))
+        let a = parseInt(new URLSearchParams( window.location.search).get("id"));
         fetch('../images.json')
         .then((response) => response.json())
         .then((json) => { 

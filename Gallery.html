@@ -84,15 +84,19 @@
                             }
                         }
                         console.log(arr.length);
-                        for (let i = 0, len = arr.length; i < len;) {
+                        if (arr.length > 0) {
+                            for (let i = 0, len = arr.length; i < len;) {
                             let row = document.createElement("div");
                             row.className = "g_row";
                             gal.appendChild(row);
                             do {
-                                let a = 
                                 row.innerHTML += `<dl><dt>${json[arr[i]].Author}</dt><dd><a href="Img.html?id=${arr[i]}"><img src="${json[arr[i]].link}"></a>${json[arr[i]].desc}</dd></dl>`;
                                 i++;
                             } while (i % 4 != 0)
+                        }
+                        }
+                        else {
+                            gal.innerHTML = `<h1 style="">There isn't any ${document.querySelector("input").value} authors</h1>`;
                         }
                     }
         });
